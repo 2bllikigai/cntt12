@@ -1,0 +1,63 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.blank {
+    flex: 1;
+}
+
+#left {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: aquamarine;
+    width: 250px;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+#right {
+    background-color: bisque;
+    flex: 1;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+#avata {
+    width: 190px;
+    border-radius: 10%;
+    margin-top: 12px;
+}
+#group-text {
+    width:86%;
+}
+.text {
+    margin-top: 7px;
+    font-weight: 600;
+}
+
+#_blank{
+    flex: 1;
+}
+
+#logout {
+    font-weight: 800;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-bottom: 28px;
+}
+.margin-top{
+    margin-top: 10px;
+    padding: 0 20px;
+}
+#input{
+    width: 300px;
+}
